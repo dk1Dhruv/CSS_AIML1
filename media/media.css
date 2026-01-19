@@ -1,0 +1,16 @@
+.box{
+    height:100px;
+    width:100%;
+    background-color:lightblue;
+
+}
+@media(min-width:768px){
+    .box{
+        background-color:lightcoral;
+    }
+}
+@media(min-width:1024px){
+    .box{
+        background-color:lightgreen;
+    }
+}

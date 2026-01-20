@@ -1,0 +1,34 @@
+     body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+        .box {
+            width: 200px;
+            height: 120px;
+            padding: 10px;
+            color: white;
+        }
+
+        .left {
+            float: left;
+            background-color: steelblue;
+            margin-right: 15px;
+        }
+
+        .right {
+            float: right;
+            background-color: seagreen;
+            margin-left: 15px;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        p {
+            line-height: 1.6;
+        }

@@ -1,0 +1,49 @@
+/* 1. Color Name */
+.name {
+    color: red;
+}
+
+/* 2. Hex Color */
+.hex {
+    color: #0000ff;
+}
+
+/* 3. RGB Color */
+.rgb {
+    color: rgb(0, 128, 0);
+}
+
+/* Font Size */
+.small {
+    font-size: small;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.large {
+    font-size: large;
+}
+
+.xlarge {
+    font-size: x-large;
+}
+
+/* Font Family 
+*/
+.arial {
+    font-family: Arial, sans-serif;
+}
+
+.times {
+    font-family: "Times New Roman", serif;
+}
+
+.courier {
+    font-family: "Courier New", monospace;
+}
+
+.verdana {
+    font-family: Verdana, sans-serif;
+}

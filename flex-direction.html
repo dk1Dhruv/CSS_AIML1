@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flex-direction.css">
-    <title>flexbox</title>
+<title>Flex Direction Example</title>
+<link rel="stylesheet" href="flex-direction.css">
 </head>
+
 <body>
-<!-- flex direction -->
-<div class="container">
-<div class="item">row</div>   
-<div class="item">row reverse</div>
-<div class="item">column</div>
-<div class="item">column reverse</div>
+
+<h3>flex-direction: row (default)</h3>
+<div class="container" style="flex-direction: row;">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
 </div>
 
+<h3>flex-direction: row-reverse</h3>
+<div class="container" style="flex-direction: row-reverse;">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+<h3>flex-direction: column</h3>
+<div class="container" style="flex-direction: column;">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+<h3>flex-direction: column-reverse</h3>
+<div class="container" style="flex-direction: column-reverse;">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
 
 </body>
 </html>
